@@ -2,7 +2,7 @@ import { HttpResponse, HttpStatusCode } from './protocols';
 
 export const ok = <T>(body: any): HttpResponse<T> => {
     return {
-        statusCode: HttpStatusCode.CREATED,
+        statusCode: HttpStatusCode.OK,
         body
     };
 };
